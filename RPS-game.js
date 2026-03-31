@@ -1,5 +1,5 @@
 const playerMove = process.argv[2];
-const availableMoves = ["rock", "paper", "scissors"];
+const availableMoves = ["scissors", "paper", "rock"];
 const computerMove =
   availableMoves[Math.floor(Math.random() * availableMoves.length)];
 
